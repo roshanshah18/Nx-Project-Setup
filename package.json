@@ -2,7 +2,13 @@
   "name": "@compressor/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev:backend":"npx nx run backend:serve",
+    "build:backend":"npx nx run backend:build",
+    "dev:frontend":"npx nx run frontend:serve",
+    "build:frontend":"npx nx run frontend:build",
+    "build":"npx nx run backend:build && npx nx run frontend:build"
+  },
   "private": true,
   "dependencies": {
     "axios": "^1.6.0",
