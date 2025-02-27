@@ -7,7 +7,7 @@
     "build:backend":"npx nx run backend:build",
     "dev:frontend":"npx nx run frontend:serve",
     "build:frontend":"npx nx run frontend:build",
-    "build":"npx nx run backend:build && npx nx run frontend:build"
+    "build":"npx nx run backend:build && npx nx run frontend:builds"
   },
   "private": true,
   "dependencies": {
